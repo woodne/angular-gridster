@@ -27,7 +27,10 @@ angular.module('app')
 		resizable: {
 			enabled: false,
 			handles: ['n', 'e', 's', 'w', 'se', 'sw']
-		}
+		},
+		colWidth: 100,
+		rowHeight: 100,
+		mobileModeEnabled: false
 	};
 
 	// these map directly to gridsterItem options
